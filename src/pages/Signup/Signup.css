@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+
+.heading > h2 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #4e515f;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.error-msg {
+  font-size: 12px;
+  color: red;
+  max-width: 312px;
+  min-height: 50px;
+  background-color: #01051a1a;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+.email-error-icon {
+  color: #ff0000;
+  margin-top: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+.form-error {
+  color: #ff0000;
+  font-size: 12px;
+  width: 312px;
+  position: absolute;
+}
+.form-error-icon {
+  color: #ff0000;
+  font-size: 13px;
+  margin-top: -15px;
+  margin-left: 305px;
+  right: 0;
+}
+
+.success-msg {
+  font-size: 19px;
+  color: #01051a;
+  font-weight: 600;
+  position: absolute;
+  text-align: center;
+  align-self: center;
+  background-color: #fff;
+  z-index: 10;
+  width: 360px;
+  height: 97.5%;
+  padding: 400px 10px 0 10px;
+}
+
+.confirm-signup-icon {
+  position: absolute;
+  top: 250px;
+  left: 80px;
+}
+
+.cancel-icon {
+  font-size: 25px;
+  position: absolute;
+  margin-top: -105%;
+  margin-left: 77%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cancel-icon:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+  .container1 {
+    height: 100%;
+  }
+  .container2 {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    padding-left: 10px;
+    position: relative;
+  }
+
+  .heading > h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .form-error-icon {
+    margin-left: 305px;
+    margin-top: -32px;
+    color: #ff0000;
+    font-size: 13px;
+    text-align: right;
+  }
+  .success-msg {
+    font-size: 18px;
+    color: #fff;
+    height: 100%;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    background-color: #01051a;
+    z-index: 10;
+    width: 100%;
+    padding: 120% 10px 0 10px;
+  }
+  .check-icon {
+    font-size: 100px;
+    position: absolute;
+    margin-left: 33%;
+  }
+  .cancel-icon {
+    font-size: 25px;
+    position: absolute;
+    margin-top: -110%;
+    margin-left: 82%;
+    cursor: pointer;
+  }
+}
+
+.form-group {
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #a3a5ac;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #01051a1a;
+  background-color: 1px solid #a3a5ac;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.password-control {
+  padding-right: 50px;
+}
+
+.btn-signup {
+  width: 100%;
+  background-color: #01051a;
+  font-weight: 600;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.btn-signin {
+  width: 100%;
+  font-weight: 600;
+  background-color: transparent;
+  color: #01051a;
+  padding: 14px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+#password-toggle {
+  position: relative;
+}
+
+.togglebtn {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.form-error-password {
+  font-size: 12px;
+  margin-bottom: 0;
+  opacity: 0.7;
+}
+.policy {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.policy > a {
+  text-decoration: underline;
+  font-weight: 600;
+}

@@ -1,0 +1,222 @@
+
+.topIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.close {
+  margin-top: -25px;
+  transform: scale(2.0);
+  cursor: pointer;
+  transition: 0.4s
+}
+.close:hover {
+  color: red;
+  transition: 0.4s;
+  font-weight: 600
+}
+
+.refresh {
+  cursor: pointer;
+  display: flex;
+  margin-top: -13px;
+  padding: 5px;
+  width: 30%;
+}
+
+.refreshIcon {
+  margin-top: 4px;
+  margin-right: 10px;
+  transform: scale(1.5);
+  font-weight: 600;
+  color: #01051A
+}
+
+.refreshText {
+  font-weight: 600
+}
+
+.para {
+  padding: 1px;
+  margin-top: 1.2rem;
+  background-color: white;
+}
+.qrContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
+  background-color: whitesmoke;
+  background-color: rgb(239, 234, 234);
+}
+
+.qrInput {
+  height: 1.5rem;
+  width: 80%;
+  background: transparent;
+  outline: none;
+  border: 0;
+  margin-left: 10px;
+}
+.qrContains {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+.input-field {
+  background-color: whitesmoke;
+}
+.icon {
+  margin-right: 8px;
+}
+.text {
+  text-align: center;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.main_container {
+  padding: 10px 0 10px 0;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 770px;
+  border: 1px solid rgb(143, 143, 143);
+  padding: 20px;
+  opacity: 100%;
+  margin-left: 38%;
+}
+
+.check {
+  margin-top: -190px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #4e515f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.copy {
+  margin-left: 15px;
+  left: 0;
+  position: absolute;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.input {
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 10px;
+  padding: 15px 10px 10px 31px;
+  width: 312px;
+  border: 1px solid #01051a1a;
+  outline: none;
+  background-color: #01051a1a;
+  display: block;
+  position: relative;
+  height: 55px;
+}
+
+.input input {
+  height: 1.5rem;
+  width: 96%;
+  background: transparent;
+  outline: none;
+  border: 0;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+}
+.inputContainer button {
+  background-color: #5784f5;
+  color: #fff;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.inputContainer button:active {
+  background-color: #809ce2;
+}
+.inputContainer button:before {
+  content: "copied now";
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  background-color: black;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+.copyMsg {
+  font-size: 14px;
+  color: #4e515f;
+  max-width: 312px;
+  min-height: 30px;
+  font-weight: 600;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+  }
+  .main_container {
+    padding: 0;
+    height: 100vh;
+  }
+  .close {
+    margin-top: -32%;
+    transform: scale(2.0);
+    cursor: pointer;
+    transition: 0.2s
+  }
+  .close:hover {
+    color: red;
+    transition: 0.2s
+  }
+  
+  .refresh {
+    margin-top: -30%;
+  }
+  
+  .refreshIcon {
+    margin-top: 4px;
+    margin-right: 10px;
+    transform: scale(1.5);
+    font-weight: 600;
+    color: #01051A
+  }
+}

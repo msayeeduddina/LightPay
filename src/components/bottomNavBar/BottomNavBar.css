@@ -1,0 +1,106 @@
+.dash-footer {
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 295px;
+  margin-left: 12px;
+  height: 30px;
+}
+
+.home1 {
+  width: 19px;
+  height: 19px;
+  margin-left: -10px;
+}
+.home p {
+  font-size: x-small;
+  font-family: 'Outfit', sans-serif;
+  margin-left: -13px;
+  transition: 0.2s;
+}
+.home p:hover {
+  color: red;
+  transition: 0.2s;
+}
+.home:hover {
+  cursor: pointer;
+  color: red;
+  transition: 0.2s;
+}
+
+.nav-transaction1 {
+  width: 19px;
+  height: 19px;
+  margin-left: 39px;
+}
+.nav-transaction p {
+  font-size: x-small;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 25px;
+  /* color: #a3a5ac; */
+  transition: 0.2s;
+}
+.nav-transaction p:hover {
+  color: red;
+  transition: 0.2s;
+}
+.nav-transaction:hover {
+  cursor: pointer;
+  color: red;
+  transition: 0.2s;
+}
+
+.gift1 {
+  width: 19px;
+  height: 19px;
+  margin-left: 39px;
+}
+.gift p {
+  font-size: x-small;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 29px;
+  /* color: #a3a5ac; */
+  transition: 0.2s;
+}
+.gift p:hover {
+  color: red;
+  transition: 0.2s;
+}
+.gift:hover {
+  cursor: pointer;
+  color: red;
+  transition: 0.2s;
+}
+
+.wallet1 {
+  width: 19px;
+  height: 19px;
+  margin-left: 43px;
+}
+.wallet p {
+  font-size: x-small;
+  font-family: 'Outfit', sans-serif;
+  margin-left: 37px;
+  /* color: #a3a5ac; */
+  transition: 0.2s;
+}
+.wallet p:hover {
+  color: red;
+  transition: 0.2s;
+}
+.wallet:hover {
+  cursor: pointer;
+  color: red;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 600px) {
+  .dash-footer {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 295px;
+    margin-left: 12px;
+    margin-bottom: -2px;
+  }
+}

@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap-trans {
+  width: 100%;
+  background: #fff;
+  height: 95%;
+}
+
+.trans-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #4e515f;
+  padding-bottom: 10px;
+}
+
+.wrap-input-trans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.search-trans {
+  margin-left: 20px;
+  left: 0;
+  position: absolute;
+}
+
+.transactions-screen {
+  margin-top: 70px;
+}
+
+.input-trans {
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 10px;
+  padding: 10px 10px 10px 50px;
+  margin: 5px 0;
+  width: 100%;
+  border: 1px solid #01051a1a;
+  outline: none;
+  background-color: #01051a1a;
+  display: block;
+  position: relative;
+  height: 55px;
+}
+
+.transaction-rate-list {
+  display: flex;
+  height: 70px;
+}
+
+.trans-list {
+  overflow-y: scroll;
+  height: 505px;
+}
+
+.trans-coins {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  cursor: pointer;
+}
+
+.trans-coins-icon {
+  margin-top: 12px;
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+}
+
+.legend {
+  display: flex;
+  width: 100%;
+  height: 10px;
+}
+
+.column {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+
+.bound-img {
+  transform: scale(0.5);
+}
+
+.bound {
+  text-align: center;
+  color: #4e515f;
+  font-size: 14px;
+}
+
+.debit-credit {
+  margin-right: 160px;
+  margin-left: -8px;
+  margin-top: 12px;
+}
+
+.trans-eth-address {
+  margin-left: 10px;
+  margin-top: 13px;
+  font-family: 'Outfit', sans-serif;
+  color: #01051a;
+  font-size: 9.5pt;
+}
+
+.trans-symbol-text {
+  margin-top: -5px;
+  margin-left: 10px;
+  color: #a3a5ac;
+  font-family: 'Outfit', sans-serif;
+  font-size: 9pt;
+}
+
+.trans-price {
+  margin-top: 12px;
+  font-family: 'Outfit', sans-serif;
+  font-size: small;
+  width: 33%;
+  color: #4e515f;
+  font-weight: 600;
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrap-trans {
+    width: 100%;
+    background: #fff;
+    height: 95%;
+  }
+  .trans-list {
+    height: 580px;
+  }
+  .trans-price {
+    width: 40%;
+  }
+}

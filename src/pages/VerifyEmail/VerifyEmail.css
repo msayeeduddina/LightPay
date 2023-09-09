@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: auto;
+  background-color: #01051a1a;
+  height: 100%;
+  font-family: 'Outfit', sans-serif;
+}
+
+.img-verify {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+}
+
+.img-container-verify {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+}
+
+.signin-btn-verify {
+  background-color: #01051a;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signin-btn-verify:hover {
+  background-color: green;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.email-msg {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .img-verify {
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .img-container-verify {
+    margin-top: 0;
+  }
+}

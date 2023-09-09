@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrap-signin {
+  width: 100%;
+  background: #fff;
+}
+
+.signin-form {
+  width: 100%;
+  position: relative;
+}
+
+.email,
+.password {
+  text-align: left;
+  width: 100%;
+  font-weight: normal;
+  font-size: 12px;
+  color: #4e515f;
+}
+
+.signin-form-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: #4e515f;
+  padding-top: 60px;
+  padding-bottom: 39px;
+}
+
+.wrap-input-signin {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.input-signin {
+  border-radius: 10px;
+  padding: 12px;
+  margin: 8px 0;
+  width: 100%;
+  border: 1px solid #01051a1a;
+  outline: none;
+  background-color: #01051a1a;
+  display: block;
+  position: relative;
+  height: 55px;
+}
+
+.eye {
+  position: absolute;
+  margin-left: 89%;
+  margin-top: -45px;
+}
+
+.text-right {
+  text-align: right;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #01051a;
+  padding-right: 6px;
+}
+
+.signin-error-msg {
+  font-size: 12px;
+  color: red;
+  width: 100%;
+  min-height: 50px;
+  background-color: #01051a1a;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.signin-btn {
+  font-weight: bold;
+  color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  line-height: 2.2;
+  height: 56px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 50px 0 10px 0;
+  border: none;
+  outline: none;
+  background-color: #01051a;
+}
+
+.signup-btn {
+  font-weight: bold;
+  color: #01051a;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #01051a;
+  font-size: 15px;
+  margin: 10px 0;
+  outline: none;
+  background-color: #fff;
+  height: 56px;
+}
+
+@media only screen and (max-width: 600px) {
+  .signin-form-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .signin-form {
+    margin-top: 80px;
+  }
+  .eye {
+    right: 20px;
+  }
+}

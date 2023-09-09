@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap-sr-container {
+  width: 100%;
+  background: #fff;
+}
+
+.nav-icon-container {
+  display: flex;
+  gap: 9rem;
+}
+
+.make-request {
+  color: #0d223d;
+  font-weight: 600;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.receiveSend-nav {
+  display: flex;
+  cursor: pointer;
+}
+
+.contain {
+  padding-top: 0.5px;
+}
+
+.receiveSend-main {
+  background: #0d223d;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.receiveSend-coinName {
+  margin-top: 10px;
+  color: #A3A5AC;
+}
+
+.receiveSend-bal-sym {
+  display: flex;
+  gap: 6px;
+}
+
+.receiveSend-coinBalance {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.receiveSend-coinSymbol {
+  margin-top: 10px;
+  color: #A3A5AC;
+}
+
+.receive,
+.send {
+  background-color: #01051a1a;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.send:hover {
+    background-color:#0d223d;
+    color:red;
+    transition: 0.2s;
+}
+.receive:hover {
+    background-color:#0d223d;
+    color:#0fde02;
+    transition: 0.2s;
+}
+
+.send-receive-icon {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.send-icon-and-title,
+.receive-icon-and-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.send-title,
+.receive-title {
+  margin-top: 8px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-icon-container {
+    display: flex;
+    gap: 11rem;
+  }
+
+} 

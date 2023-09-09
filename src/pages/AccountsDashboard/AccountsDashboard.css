@@ -1,0 +1,197 @@
+.collective {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 100%;
+}
+
+.dashboard-user-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dashboard-shield-icon {
+  width: 13%;
+  height: 50%;
+  margin-top: 20px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-radius: 50%;
+}
+
+.dashboard-coin-icon {
+  margin-top: 12px;
+  width: 35px;
+  height: 35px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.user p {
+  margin-left: 45px;
+  margin-top: -78px;
+  font-family: 'Outfit', sans-serif;
+  color: #01051a;
+  font-size: 10pt;
+}
+
+.show-balance {
+  background-color: #01051a;
+  height: 140px;
+  width: 100%;
+  margin-top: -35px;
+  margin-right: 1px;
+  border-radius: 10px;
+}
+
+.logout-icon {
+  padding: 5px;
+  position: absolute;
+  margin-left: 290px;
+  font-size: 20px;
+  color: #01051a;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-icon:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+.balance {
+  margin-top: -10px;
+  font-family: 'Outfit', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 24pt;
+  font-weight: 600;
+}
+
+.total {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.connect-account {
+  height: 80px;
+  width: 100%;
+  background-color: #4e515f;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.first {
+  font-size: small;
+  font-weight: bold;
+  /* color: white; */
+}
+.second {
+  margin-top: -10px;
+  font-size: x-small;
+}
+
+.trust {
+  margin-top: -52px;
+  margin-left: 80px;
+  color: white;
+  padding: 5px 0;
+}
+
+.exchange {
+  margin-top: 120px;
+  color: white;
+}
+
+.exchange h4 {
+  margin-left: 8px;
+  margin-bottom: 14px;
+  color: #4e515f;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.exchange-rates {
+  overflow-y: scroll;
+  height: 340px;
+}
+
+.exchange-rate-list {
+  display: flex;
+  height: 70px;
+  margin-left: -5px;
+}
+
+.coins {
+  display: flex;
+  width: 100%;
+  height: 70px;
+}
+
+.coin-name {
+  width: 70%;
+}
+
+.eth {
+  margin-left: 20px;
+  margin-top: 12px;
+  font-family: 'Outfit', sans-serif;
+  color: #01051a;
+  font-size: 11pt;
+}
+
+.symbol {
+  margin-top: -5px;
+  margin-left: 20px;
+  color: #a3a5ac;
+  font-family: 'Outfit', sans-serif;
+  font-size: 9pt;
+}
+
+.price {
+  margin-top: 12px;
+  margin-right: 5px;
+  font-family: 'Outfit', sans-serif;
+  font-size: small;
+  width: 30%;
+  color: #4e515f;
+  font-weight: 600;
+  text-align: right;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.usd {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+  .collective {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .exchange-rates {
+    height: 410px;
+  }
+  .dashboard-shield-icon {
+    width: 12%;
+  }
+  .logout-icon {
+    margin-left: 315px;
+  }
+}
